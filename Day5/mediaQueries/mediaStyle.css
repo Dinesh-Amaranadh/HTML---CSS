@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+    border: 5px solid black;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+}
+@media screen and (max-width:426px) {
+   .container{
+    background-color: burlywood;
+   } 
+   .box{
+    background-color: aquamarine;
+   }
+}
+@media screen and (min-width:800px) {
+    .container{
+        background-color: aquamarine;
+    }
+    .box{
+        background-color: violet;
+    }
+}
